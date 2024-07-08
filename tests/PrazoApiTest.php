@@ -1,6 +1,8 @@
-
 <?php
+
+
 use PHPUnit\Framework\TestCase;
+use CorreiosPhpSdk\PrazoApi;
 
 class PrazoApiTest extends TestCase
 {

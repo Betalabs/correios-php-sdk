@@ -1,5 +1,7 @@
-
 <?php
+
+namespace CorreiosPhpSdk;
+
 class CepApi extends CorreiosApiClient
 {
     public function getEndereco($cep)

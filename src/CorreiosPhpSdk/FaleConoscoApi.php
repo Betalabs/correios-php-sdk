@@ -1,5 +1,7 @@
-
 <?php
+
+namespace CorreiosPhpSdk;
+
 class FaleConoscoApi extends CorreiosApiClient
 {
     public function criarPedidoInformacao($data)

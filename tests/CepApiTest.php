@@ -1,6 +1,7 @@
 
 <?php
 use PHPUnit\Framework\TestCase;
+use CorreiosPhpSdk\CepApi;
 
 class CepApiTest extends TestCase
 {

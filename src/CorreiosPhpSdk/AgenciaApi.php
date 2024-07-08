@@ -1,5 +1,7 @@
-
 <?php
+
+namespace CorreiosPhpSdk;
+
 class AgenciaApi extends CorreiosApiClient
 {
     public function getAgencias($params)

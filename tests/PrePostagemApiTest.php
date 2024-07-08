@@ -1,6 +1,7 @@
 
 <?php
 use PHPUnit\Framework\TestCase;
+use CorreiosPhpSdk\PrePostagemApi;
 
 class PrePostagemApiTest extends TestCase
 {

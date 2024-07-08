@@ -1,5 +1,7 @@
-
 <?php
+
+namespace CorreiosPhpSdk;
+
 class RastroApi extends CorreiosApiClient
 {
     public function getRastreamento($codigo)

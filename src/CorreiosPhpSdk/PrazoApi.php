@@ -1,5 +1,7 @@
-
 <?php
+
+namespace CorreiosPhpSdk;
+
 class PrazoApi extends CorreiosApiClient
 {
     public function getPrazo($coproduto, $cepOrigem, $cepDestino)

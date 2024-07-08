@@ -2,6 +2,8 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
+use CorreiosPhpSdk\FaleConoscoApi;
+
 class FaleConoscoApiTest extends TestCase
 {
     public function testCriarPedidoInformacao()

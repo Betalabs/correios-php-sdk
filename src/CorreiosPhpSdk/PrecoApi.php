@@ -1,5 +1,7 @@
-
 <?php
+
+namespace CorreiosPhpSdk;
+
 class PrecoApi extends CorreiosApiClient
 {
     public function getPreco($params)

@@ -1,5 +1,7 @@
-
 <?php
+
+namespace CorreiosPhpSdk;
+
 class PrePostagemApi extends CorreiosApiClient
 {
     public function criarPrePostagem($data)

@@ -13,23 +13,24 @@ composer install
 
 project-root/
 ├── src/
-│   ├── CorreiosApiClient.php
-│   ├── CepApi.php
-│   ├── AgenciaApi.php
-│   ├── PrecoApi.php
-│   ├── PrazoApi.php
-│   ├── RastroApi.php
-│   ├── PrePostagemApi.php
-│   ├── FaleConoscoApi.php
+│   └── CorreiosSDK/
+│       ├── CorreiosApiClient.php
+│       ├── CepApi.php
+│       ├── AgenciaApi.php
+│       ├── PrecoApi.php
+│       ├── PrazoApi.php
+│       ├── RastroApi.php
+│       ├── PrePostagemApi.php
+│       └── FaleConoscoApi.php
 ├── tests/
-│   ├── CorreiosApiClientTest.php
-│   ├── CepApiTest.php
-│   ├── AgenciaApiTest.php
-│   ├── PrecoApiTest.php
-│   ├── PrazoApiTest.php
-│   ├── RastroApiTest.php
-│   ├── PrePostagemApiTest.php
-│   ├── FaleConoscoApiTest.php
+│    ├── CorreiosApiClientTest.php
+│    ├── CepApiTest.php
+│    ├── AgenciaApiTest.php
+│    ├── PrecoApiTest.php
+│    ├── PrazoApiTest.php
+│    ├── RastroApiTest.php
+│    ├── PrePostagemApiTest.php
+│    └── FaleConoscoApiTest.php
 ├── composer.json
 └── phpunit.xml
 

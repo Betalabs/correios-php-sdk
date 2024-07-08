@@ -1,5 +1,7 @@
-
 <?php
+
+namespace CorreiosPhpSdk;
+
 class CorreiosApiClient
 {
     private $baseUrl;
@@ -11,7 +13,7 @@ class CorreiosApiClient
         $this->token = $token;
     }
 
-    protected function get($endpoint)
+    public function get($endpoint)
     {
         $ch = curl_init("{$this->baseUrl}{$endpoint}");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -26,7 +28,7 @@ class CorreiosApiClient
         return json_decode($response, true);
     }
 
-    protected function post($endpoint, $data)
+    public function post($endpoint, $data)
     {
         $ch = curl_init("{$this->baseUrl}{$endpoint}");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

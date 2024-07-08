@@ -24,3 +24,4 @@ composer.lock
 *.tmp
 *.bak
 *.backup
+.phpunit.result.cache
