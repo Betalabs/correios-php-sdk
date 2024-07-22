@@ -1,4 +1,14 @@
 {
+    "name": "betalabs/correios-php-sdk",
+    "description": "SDK para integração com APIs dos Correios.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "betalabs",
+            "email": "betalabs@betalabs.com.br"
+        }
+    ],
     "require": {
         "php": "^7.3 || ^8.0",
         "guzzlehttp/guzzle": "^7.0.1"
@@ -15,5 +25,6 @@
         "psr-4": {
             "CorreiosPhpSdk\\Tests\\": "tests/CorreiosPhpSdk/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
