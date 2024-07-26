@@ -1,7 +1,7 @@
 
 <?php
 use PHPUnit\Framework\TestCase;
-use CorreiosPhpSdk\RastroApi;
+use CorreiosSDK\RastroApi;
 
 class RastroApiTest extends TestCase
 {

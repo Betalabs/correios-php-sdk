@@ -1,7 +1,7 @@
 
 <?php
 use PHPUnit\Framework\TestCase;
-use CorreiosPhpSdk\AgenciaApi;
+use CorreiosSDK\AgenciaApi;
 
 class AgenciaApiTest extends TestCase
 {

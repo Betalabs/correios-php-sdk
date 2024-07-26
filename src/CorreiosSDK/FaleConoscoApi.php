@@ -1,6 +1,6 @@
 <?php
 
-namespace CorreiosPhpSdk;
+namespace CorreiosSDK;
 
 class FaleConoscoApi extends CorreiosApiClient
 {

@@ -1,6 +1,5 @@
 <?php
-
-namespace CorreiosPhpSdk;
+namespace CorreiosSDK;
 
 class CepApi extends CorreiosApiClient
 {

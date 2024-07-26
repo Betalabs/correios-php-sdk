@@ -2,7 +2,7 @@
 
 
 use PHPUnit\Framework\TestCase;
-use CorreiosPhpSdk\PrazoApi;
+use CorreiosSDK\PrazoApi;
 
 class PrazoApiTest extends TestCase
 {

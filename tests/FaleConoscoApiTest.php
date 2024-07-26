@@ -2,7 +2,7 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
-use CorreiosPhpSdk\FaleConoscoApi;
+use CorreiosSDK\FaleConoscoApi;
 
 class FaleConoscoApiTest extends TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use CorreiosPhpSdk\CorreiosApiClient;
+use CorreiosSDK\CorreiosApiClient;
 
 class CorreiosApiClientTest extends TestCase
 {

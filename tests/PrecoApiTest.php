@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use CorreiosPhpSdk\PrecoApi;
+use CorreiosSDK\PrecoApi;
 
 class PrecoApiTest extends TestCase
 {
